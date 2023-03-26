@@ -38,6 +38,7 @@ class _DiffTypeListPageState extends State<DiffTypeListPage> {
     }
 
     // convert Data -> list Widgets
+    // convert Model -> List Widgets
     for (var element in ListData) {
       if (element is TimeLineModel) {
         list.add(const TimeLinePostWidget());
